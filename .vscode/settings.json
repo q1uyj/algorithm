@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.js": "html",
+        "*.vue": "html",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "stack": "cpp",
+        "iostream": "cpp",
+        "cstring": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "deque": "cpp"
+    }
+}
