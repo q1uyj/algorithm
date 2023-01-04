@@ -203,6 +203,25 @@ $ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
 
 学到这里，您掌握的 shell 知识已经可以完成一些基础的任务了。您应该已经可以查找感兴趣的文件并使用大多数程序的基本功能了。 在下一场讲座中，我们会探讨如何利用 shell 及其他工具执行并自动化更复杂的任务。
 
+### heredoc
+
+```py
+> cat << EOF > now
+heredoc> #! /opt/homebrew/bin/python3.9
+heredoc> from datetime import datetime
+heredoc> print('current time is %s' % datetime.now())
+heredoc> EOF
+```
+
+```
+cd ~/work/algorithm
+git add .
+git commit -m "2023年 1月 4日 星期三 15时11分13秒 CST"
+git push
+```
+
+
+
 # 课后练习
 
 [习题解答](https://missing-semester-cn.github.io/missing-notes-and-solutions/2020/solutions//course-shell-solution) 本课程中的每节课都包含一系列练习题。有些题目是有明确目的的，另外一些则是开放题，例如“尝试使用 X 和 Y”，我们强烈建议您一定要动手实践，用于尝试这些内容。 此外，我们没有为这些练习题提供答案。如果有任何困难，您可以发送邮件给我们并描述你已经做出的尝试，我们会设法帮您解答。
