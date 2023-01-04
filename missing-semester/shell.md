@@ -216,7 +216,7 @@ heredoc> EOF
 ```
 cd ~/work/algorithm
 git add .
-git commit -m "2023年 1月 4日 星期三 15时11分13秒 CST"
+git commit -m "$(date)"
 git push
 ```
 
