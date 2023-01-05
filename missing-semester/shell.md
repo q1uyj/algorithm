@@ -220,8 +220,6 @@ git commit -m "$(date)"
 git push
 ```
 
-
-
 # 课后练习
 
 [习题解答](https://missing-semester-cn.github.io/missing-notes-and-solutions/2020/solutions//course-shell-solution) 本课程中的每节课都包含一系列练习题。有些题目是有明确目的的，另外一些则是开放题，例如“尝试使用 X 和 Y”，我们强烈建议您一定要动手实践，用于尝试这些内容。 此外，我们没有为这些练习题提供答案。如果有任何困难，您可以发送邮件给我们并描述你已经做出的尝试，我们会设法帮您解答。
